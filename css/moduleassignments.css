@@ -1,37 +1,41 @@
 * {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;
-        overflow:auto;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-
-			#nav, #content{
-				margin: 1%;}
-	
-			li {
-				display: inline;
-				padding: 0.5em;}
-
-			#nav{
-				background-color: #efefef;
-				padding: 0.5em 0;}
-
-			.module {
-        height: 10em;
-        padding-top: 1em;
-				width: 10em;
-        overflow: auto;
-        float:left;
-        margin: 10px;
-				background-color: #efefef;}
-
-			.row{
-        position:relative;
-        margin-left:20%;
-        margin-right:10%;}
-
-      .clear{
-  clear: both;
+     font-family: Arial, Verdana, sans-serif;
+     color: #665544;
+     text-align: center;
+     overflow:auto;
+}
+ body {
+     background-image: url("https://images7.alphacoders.com/118/1189484.jpg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 90%;
+     margin: 0 auto;
+}
+ #nav, #content{
+     margin: 1%;
+}
+ li {
+     display: inline;
+     padding: 0.5em;
+}
+ #nav{
+     background-color: #efefef;
+     padding: 0.5em 0;
+}
+ .module {
+     height: 10em;
+     padding-top: 1em;
+     width: 10em;
+     overflow: auto;
+     float:left;
+     margin: 10px;
+     background-color: #efefef;
+}
+ .row{
+     position:relative;
+     margin-left:20%;
+     margin-right:10%;
+}
+ .clear{
+     clear: both;
 }
