@@ -1,46 +1,50 @@
 * {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-
-			#nav, #content{
-				margin: 1%;}
-	
-			li {
-				display: inline;
-				padding: 0.5em;}
-
-			#nav{
-				background-color: #efefef;
-				padding: 0.5em 0;}
-
-			#content {
-				height: 10em;
-				margin-bottom: 1em;
-        padding-top: 1em;
-				background-color: #efefef;}
-
-.column, .box {
-    float: left;
-    width: 49%;
-    background-color:#FFB695;
-    }
-.column{
-  border-style: solid;
-  border-color: black;
+     font-family: Arial, Verdana, sans-serif;
+     color: #665544;
+     text-align: center;
 }
-#right{
-  border-left-style: none;
+ body {
+     background-image: url("https://images7.alphacoders.com/118/1189484.jpg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 90%;
+     margin: 0 auto;
 }
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-img{
-  height:10em;
-  width:50%;
+ #nav, #content{
+     margin: 1%;
+}
+ li {
+     display: inline;
+     padding: 0.5em;
+}
+ #nav{
+     background-color: #efefef;
+     padding: 0.5em 0;
+}
+ #content {
+     height: 10em;
+     margin-bottom: 1em;
+     padding-top: 1em;
+     background-color: #efefef;
+}
+ .column, .box {
+     float: left;
+     width: 49%;
+     background-color:#FFB695;
+}
+ .column{
+     border-style: solid;
+     border-color: black;
+}
+ #right{
+     border-left-style: none;
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+ img{
+     height:10em;
+     width:50%;
 }
