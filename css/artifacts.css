@@ -1,8 +1,12 @@
+html {
+  background: url("https://images7.alphacoders.com/118/1189484.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
 * {
      font-family: Arial, Verdana, sans-serif;
      color: #665544;
      text-align: center;
-     overflow:auto;
 }
  body {
      background-image: url("https://images7.alphacoders.com/118/1189484.jpg");
