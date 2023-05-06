@@ -1,24 +1,29 @@
 * {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-
-			#nav, #content{
-				margin: 1%;}
-	
-			li {
-				display: inline;
-				padding: 0.5em;}
-
-			#nav {
-				background-color: #efefef;
-				padding: 0.5em 0;}
-
-			#content {
-				height: 10em;
-				margin-bottom: 1em;
-        padding-top: 1em;
-				background-color: #efefef;}
+     font-family: Arial, Verdana, sans-serif;
+     color: #665544;
+     text-align: center;
+}
+ body {
+     background-image: url("https://images7.alphacoders.com/118/1189484.jpg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 90%;
+     margin: 0 auto;
+}
+ #nav, #content{
+     margin: 1%;
+}
+ li {
+     display: inline;
+     padding: 0.5em;
+}
+ #nav {
+     background-color: #efefef;
+     padding: 0.5em 0;
+}
+ #content {
+     height: 10em;
+     margin-bottom: 1em;
+     padding-top: 1em;
+     background-color: #efefef;
+}
