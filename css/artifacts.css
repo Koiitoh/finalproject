@@ -1,0 +1,45 @@
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;
+        overflow:auto;}
+			body {
+				width: 90%;
+				margin: 0 auto;}
+
+			#nav, #content {
+				margin: 1%;}
+	
+			li {
+				display: inline;
+				padding: 0.5em;}
+
+			#nav{
+				background-color: #efefef;
+				padding: 0.5em 0;}
+
+			.artifacts {
+				height: 10em;
+        margin-left: 25%;
+        margin-right: 25%;
+				margin-bottom: 1em;
+        padding-top: 1em;
+        overflow: auto;
+				background-color: #efefef;}
+
+      .link{
+        float:right;
+        margin-right:15%
+      }
+
+      img{
+        height: 150px;
+        width:150px;
+      }
+      .image{
+        float: left;
+        margin-left:10%;
+      }
+
+
+      
