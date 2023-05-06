@@ -4,7 +4,9 @@ html {
 }
 
 * {
-     font-family: Arial, Verdana, sans-serif;
+     font-family: 'WaltographRegular';
+     font-weight: normal;
+     font-style: normal;
      color: #665544;
      text-align: center;
 }
