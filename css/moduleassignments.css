@@ -33,8 +33,12 @@ html {
      float:left;
      margin: 10px;
      background-color: #efefef;
+   
 }
  .row{
+     display: flex;
+     justify-content: center;
+     align-items: center;
      position:relative;
      margin-left:10%;
      margin-right:10%;
