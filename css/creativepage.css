@@ -1,6 +1,9 @@
 html {
   background: url("https://images7.alphacoders.com/118/1189484.jpg") no-repeat center fixed;
   background-size: cover;
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
 }
 
 * {
@@ -8,8 +11,13 @@ html {
      font-weight: normal;
      font-style: normal;
      color: #665544;
-     text-align: center;
+     
 }
+
+#header,#heading{
+  text-align: center;
+}
+
  body {
      width: 90%;
      margin: 0 auto;
@@ -24,10 +32,49 @@ html {
  #nav {
      background-color: #efefef;
      padding: 0.5em 0;
+     text-align: center;
 }
  #content {
-     height: 10em;
+     height: 30em;
      margin-bottom: 1em;
      padding-top: 1em;
      background-color: #efefef;
+}
+
+#rank{
+  position:absolute;
+}
+
+
+#left {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:320px;
+    float:left;
+    padding:20px;
+    position:relative;
+}
+
+#right{
+    width:350px;
+    float:right;
+}
+#footer {
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+#link{
+  position:relative;
+  top:100px;
+  left:50px;
+}
+
+video{
+  position:relative;
+  float:right;
+  top:70px;
+  left:250px;
 }
