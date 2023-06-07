@@ -4,6 +4,7 @@
       <title>Final Project - Contact Me Page</title>
       <link rel="stylesheet" type="text/css" href="/finalproject/css/contactme.css">
       <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css">
+     <script src="/finalproject/script/script.js"></script>
    </head>
    <body>
       <div id="header">
@@ -22,15 +23,16 @@
          </div>
       </div>
       <div id="content">
-         <form action="/finalproject/html/thankyou.html" method="get"
-            name="myContact">
+         <div id="errorMessages"></div>
+         <form action="thankyou.html" onsubmit="return validateForm();">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"><br>
             <label for="email">Email:</label><br>
             <input type="text" id="email" name="email"><br>
             <label for="comment">Comments:</label><br>
-            <input type="text" id="comment" name="comment"><br><br>
-            <input type="submit" value="Submit">
+            <input type="text" id="comment" name="comment">
+           <br><input type="submit" value="Submit">
+            
          </form>
       </div>
    </body>
