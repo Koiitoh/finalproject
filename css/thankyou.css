@@ -1,6 +1,9 @@
 html {
   background: url("https://images7.alphacoders.com/118/1189484.jpg") no-repeat center fixed;
   background-size: cover;
+margin-left:auto;
+  margin-right:auto;
+  width:960px;
 }
 
 * {
