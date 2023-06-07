@@ -2,6 +2,9 @@ html {
   background: url("https://images7.alphacoders.com/118/1189484.jpg") no-repeat center fixed;
   background-size: cover;
 }
+
+
+
 * {
      font-family: 'WaltographRegular';
      font-weight: normal;
@@ -9,6 +12,12 @@ html {
      color: #665544;
      text-align: center;
 }
+
+#errorMessages{
+  position:absolute;
+  margin:30px
+}
+
  body {
      width: 90%;
      margin: 0 auto;
@@ -30,3 +39,4 @@ html {
      padding-top: 1em;
      background-color: #efefef;
 }
+
