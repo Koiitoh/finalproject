@@ -31,7 +31,7 @@ function checkEmail() {
 }
 
 function checkComment() {
-    var comment = document.getElementById("email").value;
+    var comment = document.getElementById("comment").value;
 
     if (comment === "null" || comment === "") {
         document.getElementById("errorMessages").innerHTML += "<p style='color: red'>A comment is required</p>";
